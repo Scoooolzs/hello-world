@@ -1,1 +1,4 @@
-console.log("hello world! #1")
+setInterval(() => {
+  const chalk = require("chalk");
+  console.log(chalk.green("hello world"));
+}, 5000)
